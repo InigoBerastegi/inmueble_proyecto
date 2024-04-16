@@ -1,3 +1,5 @@
+package Modelo;
+
 public class Inmueble {
     private String codigo;
     private String nombre;

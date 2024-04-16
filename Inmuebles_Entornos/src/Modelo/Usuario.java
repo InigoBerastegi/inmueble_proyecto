@@ -1,3 +1,5 @@
+package Modelo;
+
 public class Usuario {
         private String Dni;
         private String Nombre;
