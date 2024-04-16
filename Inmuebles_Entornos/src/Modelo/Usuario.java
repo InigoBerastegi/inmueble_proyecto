@@ -8,7 +8,8 @@ public class Usuario {
         Dni = dni;
         Nombre = nombre;
     }
-
+    public Usuario() {
+    }
     public String getDni() {
         return Dni;
     }
