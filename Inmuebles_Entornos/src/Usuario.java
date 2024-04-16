@@ -11,7 +11,7 @@ public class Usuario {
         return Dni;
     }
 
-    
+
 
     public String getNombre() {
         return Nombre;
