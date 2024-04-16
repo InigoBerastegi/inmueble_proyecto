@@ -11,9 +11,7 @@ public class Usuario {
         return Dni;
     }
 
-    public void setDni(String dni) {
-        Dni = dni;
-    }
+    
 
     public String getNombre() {
         return Nombre;
