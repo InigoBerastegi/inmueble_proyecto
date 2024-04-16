@@ -26,12 +26,13 @@ public class ControladorVP {
         vp = new VentanaPrincipal();
 
         vp.addBAltaAl(new BAltaAl());
-        /*
         vp.addBBajaAl(new BBajaAl());
+        /*
+
         vp.addBConsultaAl(new BConsultaAl());
         vp.addBModificarAl(new BModificarAl());
         vp.addBSalirAl(new BSalirAl());
-        
+
          */
         vp.setVisible(true);
     }
@@ -43,7 +44,7 @@ public class ControladorVP {
            // cv.mostrarAlta();
         }
     }
-    /*
+
     public class BBajaAl implements ActionListener{
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -51,7 +52,7 @@ public class ControladorVP {
             cv.mostrarBaja();
         }
     }
-
+/*
     public class BConsultaAl implements ActionListener{
         @Override
         public void actionPerformed(ActionEvent e){
@@ -74,7 +75,7 @@ public class ControladorVP {
             // Le dice al controlador de vista que la operación elegida es modificación
             cv.mostrarModificacion();
         }
-    }
+    }*/
 
     public class BSalirAl implements ActionListener{
         @Override
@@ -86,5 +87,5 @@ public class ControladorVP {
         }
     }
 
-     */
+
 }
