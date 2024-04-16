@@ -15,6 +15,7 @@ public class ControladorVP {
     correspondiente.
      */
     private ControladorVista cv;
+    private ControladorVA cva;
     public ControladorVP(ControladorVista cv)
     {
         this.cv = cv;
@@ -24,8 +25,8 @@ public class ControladorVP {
     {
         // Crea, muestra y pone a escuchar la ventana principal.
         vp = new VentanaPrincipal();
-
         vp.addBAltaAl(new BAltaAl());
+        cva = new ControladorVA(this.cv = cv);
         /*
         vp.addBBajaAl(new BBajaAl());
         vp.addBConsultaAl(new BConsultaAl());
@@ -40,7 +41,7 @@ public class ControladorVP {
         @Override
         public void actionPerformed(ActionEvent e) {
             // Le dice al controlador de vista que la operación elegida es alta
-           // cv.mostrarAlta();
+            cva.crearMostrar();
         }
     }
     /*

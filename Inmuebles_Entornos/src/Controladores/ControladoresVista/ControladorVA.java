@@ -21,11 +21,11 @@ public class ControladorVA {
     {
         // Crea, muestra y manda escuchar los listener de la ventana
         va = new VentanaAlta();
-
         va.addBAceptarAl(new BAceptarAl());
         va.addBSalirAl(new BSalirAl());
-
         va.setVisible(true);
+
+
     }
 
     public class BAceptarAl implements ActionListener {
