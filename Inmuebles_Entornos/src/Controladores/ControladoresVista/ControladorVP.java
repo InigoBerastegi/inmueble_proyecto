@@ -40,7 +40,7 @@ public class ControladorVP {
         @Override
         public void actionPerformed(ActionEvent e) {
             // Le dice al controlador de vista que la operación elegida es alta
-            cv.mostrarAlta();
+           // cv.mostrarAlta();
         }
     }
     /*
